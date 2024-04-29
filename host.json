@@ -1,0 +1,23 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "logLevel": {
+        "default": "Information",
+        "Function": "Information"
+      },
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request",
+        "logLevel": {
+          "default": "Trace"
+        }
+      },
+      "enableLiveMetricsFilters": true
+    },
+    "logLevel": {
+      "default": "Information",
+      "Function": "Information"
+    }
+  }
+}
